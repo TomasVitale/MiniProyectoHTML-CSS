@@ -25,7 +25,6 @@ footer{
     font-size: 12px;
 }
 section{
-    border: solid 5px yellow;
     width: 100%;
     display: flex;
     
@@ -85,7 +84,6 @@ header{
 #banner{
     width: 100%;
     text-align: center;
-    border: solid 5px red
     
 }
 #logoml{
@@ -96,10 +94,8 @@ header{
     list-style:none;
 }
 .busqueda{
-    border: solid 2px red;
     display: flex;
 }
 .lupa{
-    border: solid 2px pink;
     display: flex;
 }
