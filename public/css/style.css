@@ -45,7 +45,7 @@ head{
 
 }
 header{
-    background-color: #EAC926;;
+    background-color: #EAC926;
 }
 .descuentos{
     font-size: 16px;
@@ -88,7 +88,7 @@ header{
 }
 #banner{
     box-sizing: border-box;
-    width: 1000px;
+    width: 100%;
     text-align: center;
     padding-right: 30%;
     
