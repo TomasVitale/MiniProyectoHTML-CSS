@@ -1,26 +1,21 @@
-html{
-    width:1500px;
-    height: auto;
-}
+
 body{
     font-family: 'robot',sans-serif;
 }
 main{
     text-align: center;
-    width:1000px;
-    margin:auto;
-    display:auto;
+    width:90%;
+    display:flex;
+    flex-wrap: wrap;   
+    height: auto;
 }
 article{
-    display:flex;
-    flex-direction: column;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    flex-wrap: wrap;
     align-items: center;
     height: auto;
-    width: 500px;
+    width: 100%;
     border-radius: 15px;
-    padding-left: 30px;
+    margin: 5px;
 }
 footer{
     text-align:center;
@@ -30,8 +25,10 @@ footer{
     font-size: 12px;
 }
 section{
-    padding-left: 160px;
-    align-items: center;
+    border: solid 5px yellow;
+    width: 100%;
+    display: flex;
+    
 }
 #logo{
     width: auto;
@@ -40,12 +37,10 @@ section{
     max-width: 4000px;
     text-align: center;
 }
-head{
-    background-color: white;
-
-}
 header{
     background-color: #EAC926;
+    width: 90%;   
+    list-style: none;
 }
 .descuentos{
     font-size: 16px;
@@ -55,7 +50,8 @@ header{
 }
 .secciones{
     font-size: 24px;
-    padding-right: 150px;
+    text-align: center;
+
 }
 .titulares{
     padding-left: 20px;
@@ -87,9 +83,23 @@ header{
     font-size: 60px;
 }
 #banner{
-    box-sizing: border-box;
     width: 100%;
     text-align: center;
-    padding-right: 30%;
+    border: solid 5px red
     
+}
+#logoml{
+    background-color: yellow;
+    width: 30%;
+}
+.barraul{
+    list-style:none;
+}
+.busqueda{
+    border: solid 2px red;
+    display: flex;
+}
+.lupa{
+    border: solid 2px pink;
+    display: flex;
 }
